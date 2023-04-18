@@ -3,13 +3,22 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --host",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.2.1"
+    "@astrojs/react": "^2.1.1",
+    "@astrojs/tailwind": "^3.1.1",
+    "@fontsource/barlow": "^4.5.9",
+    "@fontsource/fraunces": "^4.5.11",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "astro": "^2.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.1"
   }
 }
