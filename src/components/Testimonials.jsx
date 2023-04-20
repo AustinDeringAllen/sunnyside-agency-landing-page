@@ -38,7 +38,7 @@ const Testimonial = ({ children, image, reviewName, reviewJob }) => {
   return (
     <div className="flex flex-col items-center gap-8 px-10 md:px-0 lg:px-6 xl:px-12">
       <img
-        src={`/images/${image}.jpg`}
+        src={`/sunnyside-agency-landing-page/images/${image}.jpg`}
         alt={`${reviewName} profile picture`}
         className="w-16 h-16 rounded-full"
       />

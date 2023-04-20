@@ -15,7 +15,7 @@ const Mobile = () => {
   return (
     <>
       <img
-        src="/images/icon-hamburger.svg"
+        src="/sunnyside-agency-landing-page/images/icon-hamburger.svg"
         alt=""
         className="block md:hidden"
         onClick={() => setOpen((prev) => !prev)}

@@ -71,12 +71,12 @@ const ServiceSection = ({ children, image, orderSwap }) => {
     >
       <div className="w-full md:w-1/2">
         <img
-          src={`/images/mobile/${image}.jpg`}
+          src={`/sunnyside-agency-landing-page/images/mobile/${image}.jpg`}
           alt="Egg"
           className="block md:hidden"
         />
         <img
-          src={`/images/desktop/${image}.jpg`}
+          src={`/sunnyside-agency-landing-page/images/desktop/${image}.jpg`}
           alt="Egg"
           className="hidden  md:block"
         />
@@ -93,12 +93,12 @@ const ServiceSectionTwo = ({ children, image, className }) => {
     <div className="relative">
       <div>
         <img
-          src={`/images/mobile/${image}.jpg`}
+          src={`/sunnyside-agency-landing-page/images/mobile/${image}.jpg`}
           alt=""
           className="block md:hidden"
         />
         <img
-          src={`/images/desktop/${image}.jpg`}
+          src={`/sunnyside-agency-landing-page/images/desktop/${image}.jpg`}
           alt=""
           className="hidden md:block"
         />
